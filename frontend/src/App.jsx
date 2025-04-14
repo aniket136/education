@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import ProjectsPage from './pages/ProjectsPage';
 import Contact from './components/Contact';
-import FAQ from './pages/Faq';
+import Faq from './pages/Faq';
 import Banner from './pages/Banner';
 import Gallery from './pages/Gallery';
 import Volunteer from "./pages/Volunteer";
@@ -34,7 +34,7 @@ function Layout() {
             <Gallery />
             <Volunteer />
             <Banner />
-            <FAQ />
+            <Faq />
           </>
         )} */}
           <>
