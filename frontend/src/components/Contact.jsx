@@ -42,7 +42,7 @@ const Contact = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post("https://education-backend-1.onrender.com/api/contact/detail", formData);
+      const response = await axios.post("https://ngo-backend-w0ir.onrender.com/api/contact/detail", formData);
       if (response.status === 201) {
         setShowToast(true);
         setFormData({ name: "", email: "", phone: "", message: "" });
