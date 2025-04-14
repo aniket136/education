@@ -19,7 +19,7 @@ const Donate = () => {
     }
 
     try {
-      const res = await axios.post("https://ngo-e9k0.onrender.com/api/donations", {
+      const res = await axios.post("https://ngo-backend-w0ir.onrender.com/api/donation/donate", {
         name,
         email,
         amount,
